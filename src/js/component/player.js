@@ -27,6 +27,7 @@ export class Player extends React.Component {
 		this.pauseBtn.style.display = "inline-block";
 		this.setState({ currentIndex: index });
 	}
+
 	pause() {
 		this.player.pause();
 		this.pauseBtn.style.display = "none";
