@@ -13,4 +13,4 @@ import { Player } from "./component/player.js";
 import { Player2 } from "./component/player_noapi";
 
 //render your react application
-ReactDOM.render(<Player />, document.querySelector("#app"));
+ReactDOM.render(<Player2 />, document.querySelector("#app"));
