@@ -38,8 +38,7 @@ export class Player2 extends React.Component {
 
 	play(index) {
 		const url = this.state.songs[index].url;
-		if (url)
-			this.player.src = "https://assets.breatheco.de/apis/sound/" + url;
+		if (url) this.player.src = url;
 		this.player.play();
 		this.playBtn.style.display = "none";
 		this.pauseBtn.style.display = "inline-block";
