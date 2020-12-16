@@ -64,7 +64,7 @@ export class Player2 extends React.Component {
 					}}>
 					<div className="track__number">{i + 1}</div>
 					<div className="track__title featured">
-						<span className="title">{song.name}</span>
+						<span className="title">{song.title}</span>
 					</div>
 				</div>
 			);
