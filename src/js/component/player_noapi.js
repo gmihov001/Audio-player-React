@@ -87,7 +87,7 @@ export class Player2 extends React.Component {
 						<a
 							href="#"
 							ref={elm => (this.playBtn = elm)}
-							onClick={() => this.play()}>
+							onClick={() => this.play(this.state.currentIndex)}>
 							<i className="fas fa-play" />
 						</a>
 						<a
